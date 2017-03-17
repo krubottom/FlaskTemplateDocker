@@ -12,4 +12,4 @@ WORKDIR /var/flask
 
 RUN git clone https://github.com/krubottom/flask-template
 
-RUN python flask-template/server.py
+#RUN python flask-template/server.py
