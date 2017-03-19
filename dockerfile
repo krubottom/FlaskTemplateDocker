@@ -11,7 +11,7 @@ RUN mkdir /var/flask
 
 WORKDIR /var/flask
 
-ENTRYPOINT git clone https://github.com/krubottom/flask-template && python /var/flask/flask-template/server.py
+ENTRYPOINT git clone https://github.com/krubottom/flask-template && cd /var/flask/flask-template/ && python /var/flask/flask-template/server.py
 #ENTRYPOINT python /var/flask/flask-template/server.py
 
 #RUN python flask-template/server.py
